@@ -1,5 +1,5 @@
 [package]
-name = "axum-course"
+name = "todo-mvc"
 version = "0.1.0"
 edition = "2021"
 

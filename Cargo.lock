@@ -87,17 +87,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "axum-course"
-version = "0.1.0"
-dependencies = [
- "axum",
- "serde",
- "tokio",
- "utoipa",
- "utoipa-swagger-ui",
-]
-
-[[package]]
 name = "backtrace"
 version = "0.3.69"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -812,6 +801,17 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.33",
+]
+
+[[package]]
+name = "todo-mvc"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "serde",
+ "tokio",
+ "utoipa",
+ "utoipa-swagger-ui",
 ]
 
 [[package]]

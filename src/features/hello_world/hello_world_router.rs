@@ -1,7 +1,5 @@
-use crate::routes::{
-    hello_world_handler::hello_world, mirror_body_json_handler::mirror_body_json,
-    mirror_body_string_handler::mirror_body_string,
-};
+use super::hello_world_service::{hello_world, mirror_body_json, mirror_body_string};
+
 use axum::{
     routing::{get, post},
     Router,

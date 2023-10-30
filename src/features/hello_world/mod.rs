@@ -1,2 +1,2 @@
-pub mod hello_world_router;
-pub mod hello_world_service;
+pub mod hello_world_controller;
+pub mod hello_world_view;
